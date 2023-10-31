@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>BCFBC DGA DIA - STARTSEITE</title>
+    <style>
+        body {
+            background-image: url('truck-333249_960_720.jpg');
+            background-color: rgba(255, 255, 255, 5.5);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+            .header {
+            font-size: 24px;
+            margin: 0; /*Entfernt den standardmäßigen Abstand*/
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navigation {
+            background-color: #333; /* Hintergrundfarbe */
+            padding: 10px; /* Innenabstand */
+            border: 2px solid #666; /* Rahmen um die Navigation */
+            border-radius: 10px; /* Abrundung der Ecken */
+            width: 300px; /* Breite der Navigation */
+            height: 175px; /* Höhe der Navigation */
+        }
+
+        .navigation a {
+        color: #fff; /* Textfarbe der Links */
+        text-decoration: none; /* Entfernt Standard-Textdekoration */
+        margin: 0 10px; /* Abstand zwischen den Links */
+        }
+        .klappbare-nav input[type="checkbox"] {
+            display: none;
+        }
+
+        .klappbare-nav label {
+            cursor: pointer;
+            display: block;
+            position: relative;
+        }
+
+        .klappbare-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: none;
+        }
+
+        .klappbare-nav input[type="checkbox"]:checked + label + ul {
+            display: block;
+        }
+
+        .klappbare-nav label::before {
+            content: "+";
+            position: absolute;
+            left: -20px;
+        }
+
+        .klappbare-nav input[type="checkbox"]:checked + label::before {
+            content: "-";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: antiquewhite; font-size: 72px; text-align: left;">Willkommen bei der IdiotenAnstalt</h1>
+            <h2 style="color: antiquewhite; font-size: 72px; text-align: left;">Willkommen bei der geschlossenen Anstalt</h2>
+        </header>
+        <div class="navigation">
+            <ol>
+                <li><a href="beardclanfbc_uberuns.html"><strong>ÜBER UNS</strong></a></li>
+                <p></p>
+                <li><a href="beardclanfbc_kontakt.html"><strong>KONTAKT</strong></a></li>
+                <p></p>
+                <li><a href="beardclanfbc_spedition.html"><strong>DIE SPEDI BCFBC</strong></a></li>
+                <p></p>
+                <ul>
+                    <li><a href="beardclanfbc_dienstleistungen.html"><strong>DIENSTLEISTUNGEN</strong></a></li>
+                    <p></p>
+                </ul>
+                <li><a href="impressum.html"><strong>IMPRESSUM</strong></a></li>
+                <p></p>
+            </ol>
+        </div>
+    </div>
+    <section id="home">
+        <h3 style="color: white; font-size: 72px; text-align: center">Startseite</h3>
+        <h4 style="color: navajowhite; font-size: 72px; text-align: center">- 𝕯𝖎𝖊 𝕴𝖉𝖎𝖔𝖙𝖊𝖓𝕬𝖓𝖘𝖙𝖆𝖑𝖙 -</h4>
+        <h5 style="color: orangered; font-size: 72px; text-align: center; font-family: 'Comic Sans MS'">
+            Das beste und schlechteste Trio hält eben immer noch am besten
+        </h6>
+
+        <p></p>
+    </section>
+    <footer>
+        <p style="color: white;">&copy;𝟸̷𝟶̷𝟸̷𝟹̷ 𝙱̷𝚎̷𝚊̷𝚛̷𝚍̷𝙲̷𝚕̷𝚊̷𝚗̷𝙵̷𝙱̷𝙲̷   &copy;𝙳̷𝚒̷𝚎̷ 𝚐̷𝚎̷𝚜̷𝚌̷𝚑̷𝚕̷𝚘̷𝚜̷𝚜̷𝚎̷𝚗̷𝚎̷ 𝙸̷𝚍̷𝚒̷𝚘̷𝚝̷𝚎̷𝚗̷𝙰̷𝚗̷𝚜̷𝚝̷𝚊̷𝚕̷𝚝̷ | 𝙴̷𝚜̷ 𝚐̷𝚎̷𝚕̷𝚝̷𝚎̷𝚗̷ 𝚍̷𝚒̷𝚎̷ 𝚊̷𝚕̷𝚕̷𝚐̷𝚎̷𝚖̷𝚎̷𝚒̷𝚗̷𝚎̷𝚗̷ 𝙳̷𝚊̷𝚝̷𝚎̷𝚗̷𝚜̷𝚌̷𝚑̷𝚞̷𝚝̷𝚣̷𝚛̷𝚎̷𝚐̷𝚎̷𝚕̷𝚞̷𝚗̷𝚐̷𝚎̷𝚗̷ |</p>
+    </footer>
+</body>
+</html>
