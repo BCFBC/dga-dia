@@ -6,43 +6,36 @@
     <title>BCFBC DGA DIA - SHOOTER</title>
     <style>
         body {
-            background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.95)), url('shooter.png');
+            background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10,10,10,0.95)),url('shooter.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            margin: 0; /* Entfernt den Standardaußenabstand */
         }
-
-        .header {
+            .header {
             font-size: 24px;
-            margin: 0; /* Entfernt den standardmäßigen Abstand */
+            margin: 0; /*Entfernt den standardmäßigen Abstand*/
         }
 
         .container {
             display: flex;
-            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .navigation {
-            background-color: #333333aa;
-            position: fixed;
-            padding: 10px;
-            border: 2px solid #666;
-            border-radius: 10px;
-            width: 450px; /* Angepasst auf eine festgelegte Breite */
-            top: 0; /* Am oberen Rand des Bildschirms positionieren */
-            right: 0; /* Am rechten Rand des Bildschirms positionieren */
-            height: 100vh; /* Vollständige Bildschirmhöhe */
-            display: flex;
-            flex-direction: column;
+            background-color: #333333aa; /* Hintergrundfarbe */
+            padding: 10px; /* Innenabstand */
+            border: 2px solid #666; /* Rahmen um die Navigation */
+            border-radius: 10px; /* Abrundung der Ecken */
+            width: 425px; /* Breite der Navigation */
+            height: 525px; /* Höhe der Navigation */
         }
 
         .navigation a {
-            color: #fff;
-            text-decoration: none;
-            margin: 10px 0; /* Änderung des Abstands zwischen den Links */
+        color: #fff; /* Textfarbe der Links */
+        text-decoration: none; /* Entfernt Standard-Textdekoration */
+        margin: 0 10px; /* Abstand zwischen den Links */
         }
-
         .klappbare-nav input[type="checkbox"] {
             display: none;
         }
@@ -73,16 +66,6 @@
         .klappbare-nav input[type="checkbox"]:checked + label::before {
             content: "-";
         }
-
-        .content {
-            flex-grow: 1;
-            margin-left: 450px; /* Berücksichtigt die Breite der Menüleiste */
-        }
-
-        .content img {
-            width: 100%;
-        }
-    
     </style>
 </head>
 <body>
@@ -105,14 +88,14 @@
                         <p></p>
                         <li><a href="simulator.html"><strong>SIMULATOR</strong></a></li>
                         <p></p>
-                        <li style="color: darkgray;"><strong>SHOOTER</strong></li>
+                        <li><a href="shooter.html"><strong>SHOOTER</strong></a></li>
                         <p></p>
                             <ul>
                                 <li><a href="turok_remastered.html"><strong>TUROK REMASTERED [ I - III]</strong></a></li>
                                 <p></p>
                                 <li><a href="quake.html"><strong>QUAKE [ I, II ]</strong></a></li>
                                 <p></p>
-                                <li><a href="tc_grb.html"><strong>TOM CLANCY'S - GRB</strong></a></li>
+                                <li style="color: darkgray"><strong>TOM CLANCY'S - GRB</strong></a></li>
                                 <p></p>
                                 <li><a href="za_dw.html"><strong>ZOMBY ARMY - DEAD WAR 4</strong></a></li>
                                 <p></p>
