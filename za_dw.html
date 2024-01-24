@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>BCFBC DGA DIA - |ZA-DW4|</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(10, 10, 10, 0.95)), url('simulation.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding-right: 480px;
+        }
+            .header {
+            font-size: 24px;
+            margin: 0; /*Entfernt den standardmäßigen Abstand*/
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navigation {
+            background-color: #333333aa;
+            padding: 10px;
+            border: 2px solid #666;
+            border-radius: 10px;
+            width: 400px;
+            height: 450px;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        .navigation a {
+        color: #fff; /* Textfarbe der Links */
+        text-decoration: none; /* Entfernt Standard-Textdekoration */
+        margin: 0 10px; /* Abstand zwischen den Links */
+        }
+        .klappbare-nav input[type="checkbox"] {
+            display: none;
+        }
+
+        .klappbare-nav label {
+            cursor: pointer;
+            display: block;
+            position: relative;
+        }
+
+        .klappbare-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: none;
+        }
+
+        .klappbare-nav input[type="checkbox"]:checked + label + ul {
+            display: block;
+        }
+
+        .klappbare-nav label::before {
+            content: "+";
+            position: absolute;
+            left: -20px;
+        }
+
+        .klappbare-nav input[type="checkbox"]:checked + label::before {
+            content: "-";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="color: antiquewhite; font-size: 72px; text-align: left;">ZA-DW4</h1>
+        </header>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html"><strong>HOME</strong></a></li>
+                <p></p>
+                <li><a href="uberuns.html"><strong>ÜBER UNS</strong></a></li>
+                <p></p>
+                <li><a href="kontakt.html"><strong>KONTAKT</strong></a></li>
+                <p></p>
+                <li><a href="games.html"><strong>GAMES</strong></a></li>
+                <p></p>
+                    <ul>
+                        <li><a href="roblox.html"><strong>ROBLOX</strong></a></li>
+                        <p></p>
+                        <li><a href="simulator.html"><strong>SIMULATOR</strong></a></li>
+                        <p></p>
+                        <li><a href="shooter.html"><strong>SHOOTER</strong></a></li>
+                        <p></p>
+                            <ul>
+                                <li><a href="turok_remastered.html"><strong>TUROK REMASTERED [ I - III]</strong></a></li>
+                                <p></p>
+                                <li><a href="quake.html"><strong>QUAKE [ I, II ]</strong></a></li>
+                                <p></p>
+                                <li><a href="tc_grb.html"><strong>TOM CLANCY'S - GRB</strong></a></li>
+                                <p></p>
+                                <li style="color: darkgray"><strong>ZOMBY ARMY - DEAD WAR 4</strong></a></li>
+                                <p></p>
+                            </ul>
+                        <li><a href="horror.html"><strong>HORROR</strong></a></li>
+                        <p></p>
+                    </ul>
+                <li><a href="impressum.html"><strong>IMPRESSUM</strong></a></li>
+                <p></p>
+            </ul>
+        </div>
+    </div>
+    <section id="home">
+        <h3 style="color: white; font-size: 48px; text-align: center;">Zomby Army - Dead War 4</h3>
+        <p style="color: white; font-size: 24px; text-align: left;">Wartungsarbeiten an der WEbsite</p>
+        <p></p>
+        <p style="color: white; font-size: 36px;">Wenn du Fragen hast, so kannst du diese gern bei uns auf dem <a href="https://discord.gg/xQFm7Sdx9v">DiscordServer</a> stellen.</p>
+        <p style="color: rgb(206, 17, 17); font-size: 24px;"><strong>!!!ACHTUNG!!! Die Website wird immer weiter aktualisiert. Ideen bitte in Discord in den entsprechenden Channel schreiben. Vielen Dank</strong></p>
+    </section>
+    <footer>
+        <p style="color: white;">&copy;𝟸̷𝟶̷𝟸̷𝟹̷ 𝙱̷𝚎̷𝚊̷𝚛̷𝚍̷𝙲̷𝚕̷𝚊̷𝚗̷𝙵̷𝙱̷𝙲̷   &copy;𝙳̷𝚒̷𝚎̷ 𝚐̷𝚎̷𝚜̷𝚌̷𝚑̷𝚕̷𝚘̷𝚜̷𝚜̷𝚎̷𝚗̷𝚎̷ 𝙸̷𝚍̷𝚒̷𝚘̷𝚝̷𝚎̷𝚗̷𝙰̷𝚗̷𝚜̷𝚝̷𝚊̷𝚕̷𝚝̷ | 𝙴̷𝚜̷ 𝚐̷𝚎̷𝚕̷𝚝̷𝚎̷𝚗̷ 𝚍̷𝚒̷𝚎̷ 𝚊̷𝚕̷𝚕̷𝚐̷𝚎̷𝚖̷𝚎̷𝚒̷𝚗̷𝚎̷𝚗̷ 𝙳̷𝚊̷𝚝̷𝚎̷𝚗̷𝚜̷𝚌̷𝚑̷𝚞̷𝚝̷𝚣̷𝚛̷𝚎̷𝚐̷𝚎̷𝚕̷𝚞̷𝚗̷𝚐̷𝚎̷𝚗̷ |</p>
+    </footer>
+</body>
+</html>
