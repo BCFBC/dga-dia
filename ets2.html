@@ -44,6 +44,11 @@
         #games img {
         max-width: 100%;
         height: auto;
+        min-width: 200px; /* Mindestbreite nach Bedarf anpassen */
+        }
+
+        #games img:not([style*="height"]) {
+        min-height: 200px; /* Mindesthöhe nach Bedarf anpassen */
         }
     </style>
 </head>
